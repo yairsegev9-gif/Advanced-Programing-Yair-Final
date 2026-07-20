@@ -1,0 +1,27 @@
+Exercise 4 submission package
+
+Files to upload:
+- Agent.java
+- Message.java
+- Topic.java
+- TopicManagerSingleton.java
+- ParallelAgent.java
+- Config.java
+- MathExampleConfig.java
+- BinOpAgent.java
+- Node.java
+- Graph.java
+- GenericConfig.java
+- PlusAgent.java
+- IncAgent.java
+
+Expected package:
+package test;
+
+Compile command from this directory:
+javac --release 17 -d out *.java
+
+Config/static files required:
+The course tester may provide its own config files. For local manual testing, use config_files/simple.conf from the integrated repository, adjusting class names to test.PlusAgent and test.IncAgent if needed.
+
+Uncertainty: The PDF example class names use a project-specific package. These copied sources use package test as requested by the exercise submission notes.

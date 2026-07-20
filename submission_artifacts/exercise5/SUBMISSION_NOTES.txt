@@ -1,0 +1,16 @@
+Exercise 5 submission package
+
+Files to upload:
+- RequestParser.java
+- HTTPServer.java
+- MyHTTPServer.java
+- Servlet.java
+
+Expected package:
+package test;
+
+Compile command from this directory:
+javac --release 17 -d out *.java
+
+Config/static files required: none.
+Uncertainty: none beyond the course system's exact upload UI.

@@ -1,0 +1,22 @@
+Exercise 3 submission package
+
+Files to upload:
+- Agent.java
+- Message.java
+- Topic.java
+- TopicManagerSingleton.java
+- ParallelAgent.java
+- Config.java
+- MathExampleConfig.java
+- BinOpAgent.java
+- Node.java
+- Graph.java
+
+Expected package:
+package test;
+
+Compile command from this directory:
+javac --release 17 -d out *.java
+
+Config/static files required: none.
+Uncertainty: Node.message type is not explicitly declared in the PDF; this package preserves the integrated implementation type byte[].

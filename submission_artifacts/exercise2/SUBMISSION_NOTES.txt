@@ -1,0 +1,17 @@
+Exercise 2 submission package
+
+Files to upload:
+- Agent.java
+- Message.java
+- Topic.java
+- TopicManagerSingleton.java
+- ParallelAgent.java
+
+Expected package:
+package test;
+
+Compile command from this directory:
+javac --release 17 -d out *.java
+
+Config/static files required: none.
+Uncertainty: none beyond the course system's exact upload UI.

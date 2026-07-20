@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Controls</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 16px; background: #f7f9fb; color: #1f2933; }
+    form { margin-bottom: 24px; padding-bottom: 18px; border-bottom: 1px solid #d7dee8; }
+    label { display: block; margin: 8px 0 4px; font-weight: 600; }
+    input, textarea, button { width: 100%; box-sizing: border-box; padding: 8px; }
+    button { margin-top: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+<form action="/upload"
+      method="post"
+      enctype="multipart/form-data"
+      target="graph">
+
+  <label for="configFile">Configuration file</label>
+
+  <input
+          id="configFile"
+          name="config"
+          type="file"
+          accept=".conf,.txt"
+          required>
+
+  <button type="submit">deploy</button>
+</form>
+  <form action="/publish" method="get" target="values">
+    <label for="topic">Topic</label>
+    <input id="topic" name="topic" value="A">
+    <label for="message">Message</label>
+    <input id="message" name="message" value="5">
+    <button type="submit">publish</button>
+  </form>
+</body>
+</html>
